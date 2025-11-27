@@ -18,8 +18,11 @@ const Services = () => {
             Amcare cung cấp dịch vụ chăm sóc toàn diện, đồng hành cùng khách hàng xuyên suốt hành trình, 
             từ trước, trong và sau phẫu thuật.
           </p>
-          <button className="btn-primary px-8 py-3.5 inline-flex items-center gap-2">
-            <span>Xem tất cả dịch vụ</span>
+          <button 
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="btn-primary px-8 py-3.5 inline-flex items-center gap-2"
+          >
+            <span>Liên hệ tư vấn</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -40,14 +43,6 @@ const Services = () => {
               Amcare cung cấp dịch vụ hỗ trợ xuyên suốt quá trình thẩm mỹ, giúp khách hàng an tâm từ những bước đầu tiên. 
               Chúng tôi hỗ trợ thủ tục nhập viện, hỗ trợ sinh hoạt hàng ngày, hỗ trợ di chuyển, và quản lý thuốc theo chỉ định của bác sĩ.
             </p>
-            <div className="mt-6 pt-6 border-t border-gray-100">
-              <div className="flex items-center text-primary-600 font-semibold group-hover:gap-2 transition-all duration-300">
-                <span>Tìm hiểu thêm</span>
-                <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-            </div>
           </div>
 
           {/* Service Card 2 */}
@@ -62,14 +57,6 @@ const Services = () => {
               Amcare cung cấp dịch vụ chăm sóc hậu phẫu linh hoạt, được thiết kế riêng theo thời gian và nhu cầu của từng khách hàng. 
               Chúng tôi cam kết mang đến sự hỗ trợ tận tâm và chuyên nghiệp, bao gồm hỗ trợ thủ tục nhập viện và quản lý thuốc.
             </p>
-            <div className="mt-6 pt-6 border-t border-gray-100">
-              <div className="flex items-center text-primary-600 font-semibold group-hover:gap-2 transition-all duration-300">
-                <span>Tìm hiểu thêm</span>
-                <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-            </div>
           </div>
 
           {/* Service Card 3 */}
@@ -85,14 +72,6 @@ const Services = () => {
               Chúng tôi sẽ hướng dẫn chi tiết về cách chăm sóc vết mổ đúng cách, 
               các bài tập vận động nhẹ nhàng giúp giảm sưng và quản lý thuốc hiệu quả.
             </p>
-            <div className="mt-6 pt-6 border-t border-gray-100">
-              <div className="flex items-center text-primary-600 font-semibold group-hover:gap-2 transition-all duration-300">
-                <span>Tìm hiểu thêm</span>
-                <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-            </div>
           </div>
         </div>
 

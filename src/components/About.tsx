@@ -100,7 +100,10 @@ const About = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <button className="btn-primary text-lg px-8 py-4">
+          <button 
+            onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            className="btn-primary text-lg px-8 py-4"
+          >
             Tìm hiểu thêm về dịch vụ
           </button>
         </div>

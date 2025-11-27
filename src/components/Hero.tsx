@@ -25,10 +25,16 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="btn-primary text-lg px-8 py-4">
+            <button 
+              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+              className="btn-primary text-lg px-8 py-4"
+            >
               Tìm hiểu thêm
             </button>
-            <button className="btn-secondary text-lg px-8 py-4">
+            <button 
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              className="btn-secondary text-lg px-8 py-4"
+            >
               Liên hệ ngay
             </button>
           </div>
