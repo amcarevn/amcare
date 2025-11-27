@@ -74,8 +74,8 @@ function Policy() {
             </h2>
             <p className="text-gray-700 leading-relaxed">
               Nếu có bất kỳ câu hỏi hoặc khiếu nại nào liên quan đến ứng dụng, vui lòng liên hệ với chúng tôi qua email:{' '}
-              <a href="mailto:info@runagent.io" className="text-blue-600 hover:text-blue-800 underline">
-                info@runagent.io
+              <a href="mailto:info@amcare.vn" className="text-blue-600 hover:text-blue-800 underline">
+                info@amcare.vn
               </a>
             </p>
           </section>
