@@ -26,6 +26,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/beautycare/policy/vi" element={<Policy />} />
         <Route path="/ai" element={<AIInfo />} />
         <Route path="*" element={<NotFound />} />
