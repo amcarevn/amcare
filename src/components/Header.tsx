@@ -6,7 +6,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/blue-logo.webp" 
+              src="https://amcare.asia/images/blue-logo.webp" 
               alt="Amcare Logo" 
               className="h-10 w-auto"
             />
