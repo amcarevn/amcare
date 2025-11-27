@@ -1,17 +1,18 @@
+import { Link } from 'react-router-dom'
+
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md border-b border-gray-200 shadow-md">
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3 cursor-pointer">
             <img 
               src="https://amcare.asia/images/blue-logo.webp" 
               alt="Amcare Logo" 
               className="h-10 w-auto"
             />
-
-          </div>
+          </Link>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
