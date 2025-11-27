@@ -1,2 +1,6 @@
 name = "amcare"
 compatibility_date = "2025-11-27"
+
+[[routes]]
+pattern = "amcare.vn"
+custom_domain = true
