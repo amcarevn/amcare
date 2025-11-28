@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Policy from './components/Policy'
+import JourneyPolicy from './components/JourneyPolicy'
 import AIInfo from './components/AIInfo'
 import NotFound from './components/NotFound'
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/beautycare/policy/vi" element={<Policy />} />
+        <Route path="/beautycare/policy/vn" element={<JourneyPolicy />} />
         <Route path="/ai" element={<AIInfo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
